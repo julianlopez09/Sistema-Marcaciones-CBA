@@ -1,0 +1,6 @@
+Sistema de Marcaciones CBA 1.3.8
+
+- Corrige el empaquetado: el instalador ahora incorpora realmente el ejecutable 1.3.8.
+- Incluye las dependencias nativas del actualizador para evitar el error de carga de _ctypes.
+- Mantiene el reemplazo completo del runtime interno Qt/PySide6 para evitar DLL mezcladas.
+- Conserva los datos locales existentes: novedades confirmadas, ediciones manuales y respaldos no se instalan ni se eliminan.
