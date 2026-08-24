@@ -1,0 +1,5 @@
+Sistema de Marcaciones CBA 1.3.6
+
+- Corrige de forma integral el empaquetado autónomo de Qt/PySide6, Shiboken, ICU y sus bibliotecas nativas.
+- Evita el error al importar QtCore en equipos sin el entorno de desarrollo.
+- Conserva íntegramente las novedades confirmadas, las ediciones y los respaldos existentes.
