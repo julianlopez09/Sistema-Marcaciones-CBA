@@ -216,3 +216,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+## Datos locales, archivos sensibles y artefactos generados de CBA
+release_verify/
+work/
+memoria/
+entrada/
+salida/
+respaldos/
+logs/
+outputs/
+updates/
+test_runtime*/
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+*.token
+*.pem
+*.key
+*.pfx
+*.p12
+*.exe
+*.msi
+*.zip

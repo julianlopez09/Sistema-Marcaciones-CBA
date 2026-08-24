@@ -1,0 +1,22 @@
+{
+  "app": "Sistema de Marcaciones CBA",
+  "channel": "stable",
+  "version": "1.3.0",
+  "minimum_supported_version": "1.3.0",
+  "mandatory": false,
+  "release_date": "2026-08-23",
+  "installer_asset_name": "SistemaMarcacionesCBA_Setup_1.3.0.exe",
+  "sha256": "3197322f9375653b7eec5dada6ebf75b06dbff934f6b8280e7524884d90aca94",
+  "size_bytes": 56580730,
+  "notes": [
+    "Fuente maestra versionada para servidores y plantillas en varias computadoras.",
+    "UID estable, altas, ediciones y bajas físicas propagadas a matrices y exportaciones.",
+    "Rango de fechas autoritativo con columnas dinámicas y coordenadas recalculadas.",
+    "Carga de documentos por carpeta con deduplicación y continuidad ante errores.",
+    "Edición masiva por servidor y rango inclusivo con autoguardado.",
+    "Formato oficial vacío de justificaciones disponible sin internet.",
+    "Mensajes de error de alto contraste y detalle técnico expandible.",
+    "Compatibilidad con PySide6 6.9 y versiones posteriores.",
+    "232 pruebas aprobadas y exportación real de 1.113 registros confirmados verificada."
+  ]
+}

@@ -1,0 +1,11 @@
+Sistema de Marcaciones CBA 1.3.0
+
+- Fuente maestra versionada para servidores y plantillas en varias computadoras.
+- UID estable, altas, ediciones y bajas físicas propagadas a matrices y exportaciones.
+- Rango de fechas autoritativo con columnas dinámicas y coordenadas recalculadas.
+- Carga de documentos por carpeta con deduplicación y continuidad ante errores.
+- Edición masiva por servidor y rango inclusivo con autoguardado.
+- Formato oficial vacío de justificaciones disponible sin internet.
+- Mensajes de error de alto contraste y detalle técnico expandible.
+- Compatibilidad con PySide6 6.9 y versiones posteriores.
+- 232 pruebas aprobadas y exportación real de 1.113 registros confirmados verificada.
