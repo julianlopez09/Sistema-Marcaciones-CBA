@@ -1,0 +1,2 @@
+11b5726971ed55a44722638eb257eff39e92c34bc0b823bf4785d0901051a859  SistemaMarcacionesCBA_Setup_1.3.4.exe
+27c2dd79a0fcdd638c6e38fba2af2908e9c2837a0d3609131ddb7e5253ee00d8  SistemaMarcacionesUpdater.exe

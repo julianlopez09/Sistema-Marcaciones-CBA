@@ -1,0 +1,18 @@
+{
+  "app": "Sistema de Marcaciones CBA",
+  "channel": "stable",
+  "version": "1.3.4",
+  "minimum_supported_version": "1.3.3",
+  "mandatory": false,
+  "release_date": "2026-08-23",
+  "installer_asset_name": "SistemaMarcacionesCBA_Setup_1.3.4.exe",
+  "sha256": "11b5726971ed55a44722638eb257eff39e92c34bc0b823bf4785d0901051a859",
+  "size_bytes": 115374944,
+  "notes": [
+    "La actualización mantiene las revisiones, ediciones manuales y confirmaciones existentes; no reemplaza la base local.",
+    "La exportación general reutiliza una proyección temporal para reenlazar registros operativos sin modificar su estado confirmado persistido.",
+    "Se corrigieron remuneraciones, totales y fórmulas dinámicas de las matrices y de Valores a Descontar, sin fórmulas circulares.",
+    "Se añade la matriz independiente de Directores: jornada efectiva de 8 horas, ingreso y almuerzo flexibles, feriados, sin descuento económico y formato institucional preservado.",
+    "La exportación de Directores inmoviliza la primera fila y conserva las celdas combinadas de la plantilla."
+  ]
+}
