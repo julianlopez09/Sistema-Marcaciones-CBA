@@ -1,0 +1,16 @@
+{
+  "app": "Sistema de Marcaciones CBA",
+  "channel": "stable",
+  "version": "1.3.5",
+  "minimum_supported_version": "1.3.4",
+  "mandatory": false,
+  "release_date": "2026-08-24",
+  "installer_asset_name": "SistemaMarcacionesCBA_Setup_1.3.5.exe",
+  "sha256": "0b36ebc4cfa77fe1c1f2184e7b0d4245da47f5d5d15dab20d174706becea8262",
+  "size_bytes": 38944673,
+  "notes": [
+    "Corrige el empaquetado de las DLL de Qt y Shiboken necesarias para iniciar la aplicación en instalaciones Windows.",
+    "Conserva íntegramente las novedades revisadas y confirmadas, las ediciones manuales y los respaldos existentes.",
+    "Mantiene las correcciones de exportación general y de la matriz de Directores de la versión anterior."
+  ]
+}
