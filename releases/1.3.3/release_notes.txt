@@ -1,0 +1,6 @@
+Sistema de Marcaciones CBA 1.3.3
+
+Corrección de recuperación de novedades:
+- Las revisiones guardadas se recuperan aunque cambie la huella de las fuentes.
+- Se conservan registros, ediciones y confirmaciones; un cambio de fuentes solo se informa como advertencia de actualización.
+- Incluye el correctivo de inicio OpenPyXL/NumPy.
