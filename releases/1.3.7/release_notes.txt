@@ -1,0 +1,5 @@
+Sistema de Marcaciones CBA 1.3.7
+
+- Reemplaza de forma atómica todo el runtime interno de Qt/PySide6 durante la actualización.
+- Evita que DLL antiguas se mezclen con las nuevas y provoquen el error al importar QtCore.
+- Mantiene los datos de usuarios fuera de la carpeta del programa: novedades confirmadas, ediciones y respaldos no se eliminan.

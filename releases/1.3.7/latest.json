@@ -1,0 +1,16 @@
+{
+  "app": "Sistema de Marcaciones CBA",
+  "channel": "stable",
+  "version": "1.3.7",
+  "minimum_supported_version": "1.3.4",
+  "mandatory": false,
+  "release_date": "2026-08-24",
+  "installer_asset_name": "SistemaMarcacionesCBA_Setup_1.3.7.exe",
+  "sha256": "753a4583ceb21b521578901f74d989b077a576db8cc9d442f230ff5fad139321",
+  "size_bytes": 131557003,
+  "notes": [
+    "Reemplaza de forma atómica todo el runtime interno de Qt/PySide6 durante la actualización.",
+    "Evita que DLL antiguas se mezclen con las nuevas y provoquen el error al importar QtCore.",
+    "Mantiene los datos de usuarios fuera de la carpeta del programa: novedades confirmadas, ediciones y respaldos no se eliminan."
+  ]
+}
