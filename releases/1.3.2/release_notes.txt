@@ -1,0 +1,6 @@
+Sistema de Marcaciones CBA 1.3.2
+
+Corrección crítica de arranque:
+- OpenPyXL ya no intentará cargar NumPy, que es opcional y no se usa en el sistema.
+- Elimina el error "module numpy has no attribute short" de forma compatible con instalaciones existentes.
+- No modifica datos locales, revisiones ni novedades confirmadas.

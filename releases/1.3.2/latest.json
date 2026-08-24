@@ -1,0 +1,16 @@
+{
+  "app": "Sistema de Marcaciones CBA",
+  "channel": "stable",
+  "version": "1.3.2",
+  "minimum_supported_version": "1.3.2",
+  "mandatory": false,
+  "release_date": "2026-08-23",
+  "installer_asset_name": "SistemaMarcacionesCBA_Setup_1.3.2.exe",
+  "sha256": "6ff89585d1524bb743275d0d0614b07df681e7d7e430c051cb0400753297928f",
+  "size_bytes": 56571538,
+  "notes": [
+    "OpenPyXL ya no intentará cargar NumPy, que es opcional y no se usa en el sistema.",
+    "Elimina el error \"module numpy has no attribute short\" de forma compatible con instalaciones existentes.",
+    "No modifica datos locales, revisiones ni novedades confirmadas."
+  ]
+}
