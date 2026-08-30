@@ -1,0 +1,8 @@
+Sistema de Marcaciones CBA 1.3.9
+
+- Incorpora sincronización central bidireccional mediante Pendientes, Procesados y Errores.
+- Añade gestión central de Proyectos, Plantillas y numeradores institucionales.
+- Implementa reservas de numeración seguras e idempotentes, con recuperación de operaciones interrumpidas y protección contra doble consumo.
+- Incorpora AuditoriaPendiente, auditoría central de operaciones procesadas y auditoría de reservas de numeración.
+- Mejora el tratamiento de reintentos, conflictos y metadatos de sincronización.
+- Corrige la propagación independiente de NumeradorID y TipoDocumento.

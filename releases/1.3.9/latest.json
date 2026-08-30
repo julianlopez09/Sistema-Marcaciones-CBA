@@ -1,0 +1,19 @@
+{
+  "app": "Sistema de Marcaciones CBA",
+  "channel": "stable",
+  "version": "1.3.9",
+  "minimum_supported_version": "1.3.4",
+  "mandatory": false,
+  "release_date": "2026-08-30",
+  "installer_asset_name": "SistemaMarcacionesCBA_Setup_1.3.9.exe",
+  "sha256": "f034dd9b4268c95691ba97c966c1162bd9907857a787053c4bbd8af56cea7172",
+  "size_bytes": 137406909,
+  "notes": [
+    "Incorpora sincronización central bidireccional mediante Pendientes, Procesados y Errores.",
+    "Añade gestión central de Proyectos, Plantillas y numeradores institucionales.",
+    "Implementa reservas de numeración seguras e idempotentes, con recuperación de operaciones interrumpidas y protección contra doble consumo.",
+    "Incorpora AuditoriaPendiente, auditoría central de operaciones procesadas y auditoría de reservas de numeración.",
+    "Mejora el tratamiento de reintentos, conflictos y metadatos de sincronización.",
+    "Corrige la propagación independiente de NumeradorID y TipoDocumento."
+  ]
+}
