@@ -1,0 +1,9 @@
+Sistema de Marcaciones CBA 1.4.0
+
+- Incorpora un rediseño visual institucional completo, con navegación agrupada, tablas compactas y paneles de detalle.
+- Unifica la configuración de Microsoft 365 en una sola carpeta raíz sincronizada y valida lectura, escritura y estructura antes de activarla.
+- Añade detección automática de carpetas OneDrive, selección manual guiada y migración no destructiva de configuraciones anteriores.
+- Mantiene las bases SQLite, revisiones confirmadas, respaldos y exportaciones fuera de la carpeta sincronizada.
+- Mejora las pantallas Inicio, Archivos, Inspección, Revisión, Directores, Permisos y Feriados, Servidores, Gestión central y Ayuda.
+- Conserva la sincronización central, numeración idempotente, auditoría, Proyectos y Plantillas incorporados en la versión anterior.
+- Incluye mejoras de estabilidad, accesibilidad y adaptación para resoluciones entre 1366×768 y 1920×1080.
