@@ -1,0 +1,160 @@
+{
+  "Schema": "CBA_DIRECTRICES_STATIC_REVIEW_V1",
+  "Scope": "STATIC_SELECTED_SOURCES_ONLY",
+  "NonEmptyParagraphs": 62,
+  "Sources": [
+    {
+      "Key": "Session",
+      "RelativePath": "MIGRACION/EVIDENCIAS/F13_SR3_AUTONOMOUS_EXPORT_FIX_RESOURCE_RECOVERY_AND_FINAL_QA_01/DEV/CORE_02/ReleaseSession.cs",
+      "SHA256": "196CBB94BE9E429E5F7C99FA7129B05628C3DCB0CD1EC81B8B27C15C9A85896F",
+      "Bytes": 10080
+    },
+    {
+      "Key": "Window",
+      "RelativePath": "MIGRACION/EVIDENCIAS/F13_SR3_AUTONOMOUS_EXPORT_FIX_RESOURCE_RECOVERY_AND_FINAL_QA_01/DEV/UI_SR3_04_EDITOR/IntegratedWindow.cs",
+      "SHA256": "2AE1262A32E4269B00EE1785436802F26FE5DD37C956CB7270302BCBF0EA9DD1",
+      "Bytes": 21257
+    },
+    {
+      "Key": "Populations",
+      "RelativePath": "MIGRACION/EVIDENCIAS/F13_SR3_AUTONOMOUS_EXPORT_FIX_RESOURCE_RECOVERY_AND_FINAL_QA_01/DEV/UI_SR3_04_EDITOR/IntegratedPopulations.cs",
+      "SHA256": "63D247F57732BB88AD883BE61C20AC3A43AEC32AAC78CE52D5FD73BC446621BA",
+      "Bytes": 14141
+    },
+    {
+      "Key": "Labels",
+      "RelativePath": "MIGRACION/EVIDENCIAS/F13_SR3_AUTONOMOUS_EXPORT_FIX_RESOURCE_RECOVERY_AND_FINAL_QA_01/DEV/UI_SR3_04_EDITOR/IntegratedReviewLayout.cs",
+      "SHA256": "62383CECE5757177BCEF588D87C75A825699DC7DACDD74B6AF506B9EDAED705F",
+      "Bytes": 2863
+    },
+    {
+      "Key": "Project",
+      "RelativePath": "MIGRACION/EVIDENCIAS/F13_SR3_AUTONOMOUS_EXPORT_FIX_RESOURCE_RECOVERY_AND_FINAL_QA_01/DEV/UI_SR3_04_EDITOR/Integrated.WinUI.csproj",
+      "SHA256": "0390F305042B323AB523F106CEC2560FA6C3F4FD1E5E5D2D956E5DA949C63730",
+      "Bytes": 5919
+    },
+    {
+      "Key": "Shell",
+      "RelativePath": "dotnet/src/SistemaMarcaciones.Desktop.Centro.WinUI/InstitutionalShell.cs",
+      "SHA256": "D6ED6A59FD64E82CD0A9C924887559EAB7DD6E78CAF1BBA9F6759BEA5B4F6830",
+      "Bytes": 9367
+    },
+    {
+      "Key": "Ingestion",
+      "RelativePath": "dotnet/src/SistemaMarcaciones.Monthly.SourceIngestion/MonthlySourceIngestion.cs",
+      "SHA256": "85E137B017D4ED61C34F1CB34594ECEF6D8F2A197FFC34443CB2E8F9D67F5014",
+      "Bytes": 16811
+    },
+    {
+      "Key": "Consumer",
+      "RelativePath": "dotnet/src/SistemaMarcaciones.Infrastructure/Referencia/Phase4Candidate.cs",
+      "SHA256": "750A9141F0E441706CCE5565C99FF99C32853AAE0470C95A548E1E723CBE60F4",
+      "Bytes": 20567
+    },
+    {
+      "Key": "StyleConsumer",
+      "RelativePath": "dotnet/src/SistemaMarcaciones.Infrastructure/Referencia/CatalogoEstilos.cs",
+      "SHA256": "4C852990C78D049C05E0C4369AD34FB192D4F09695E0AA4934C5C89D45565515",
+      "Bytes": 859
+    },
+    {
+      "Key": "Rules",
+      "RelativePath": "src/marcaciones_cba/rules.py",
+      "SHA256": "070CD9C8947699A0D1849CF66521E03A0D4B0F19B37619975117F81907F71ED5",
+      "Bytes": 3181
+    },
+    {
+      "Key": "Discipline",
+      "RelativePath": "dotnet/src/SistemaMarcaciones.Monthly.Export.Eligibility/DisciplinePlan.cs",
+      "SHA256": "18F7FDA367620B5123009635DD50EBFE0503100738D0EFC465966D2A40D2BDC3",
+      "Bytes": 4400
+    },
+    {
+      "Key": "MonthlyReview",
+      "RelativePath": "src/marcaciones_cba/monthly_review.py",
+      "SHA256": "3FEB0A4E21A886348BCF88B32D44B5CB6F0D99AF5ACE4565F62C5E493D335745",
+      "Bytes": 26594
+    },
+    {
+      "Key": "Events",
+      "RelativePath": "src/marcaciones_cba/novelty_events.py",
+      "SHA256": "4B8E231392B12A633FB8D60D008CC3E552724F48DC08812B34AE0061C7F098C3",
+      "Bytes": 22186
+    },
+    {
+      "Key": "Documents",
+      "RelativePath": "src/marcaciones_cba/institutional_documents.py",
+      "SHA256": "376AF16195970B2205313E78478405368D9E6DB4E05C67402A958F23D44FDEEB",
+      "Bytes": 79450
+    },
+    {
+      "Key": "Templates",
+      "RelativePath": "src/marcaciones_cba/document_templates.py",
+      "SHA256": "188D08F8B85E8147DCB4E1B839F1E3D305A7B0CAEAADD2C2752C319C8280A267",
+      "Bytes": 23256
+    }
+  ],
+  "Observations": [
+    {
+      "Id": "FIXTURE_REQUIRED",
+      "Source": "MIGRACION/EVIDENCIAS/F13_SR3_AUTONOMOUS_EXPORT_FIX_RESOURCE_RECOVERY_AND_FINAL_QA_01/DEV/CORE_02/ReleaseSession.cs",
+      "Observed": true
+    },
+    {
+      "Id": "QA_ROUTE_REQUIRED",
+      "Source": "MIGRACION/EVIDENCIAS/F13_SR3_AUTONOMOUS_EXPORT_FIX_RESOURCE_RECOVERY_AND_FINAL_QA_01/DEV/CORE_02/ReleaseSession.cs",
+      "Observed": true
+    },
+    {
+      "Id": "QA_IDENTITIES_REQUIRED",
+      "Source": "MIGRACION/EVIDENCIAS/F13_SR3_AUTONOMOUS_EXPORT_FIX_RESOURCE_RECOVERY_AND_FINAL_QA_01/DEV/CORE_02/ReleaseSession.cs",
+      "Observed": true
+    },
+    {
+      "Id": "PINNED_BIOMETRIC_IMPORT",
+      "Source": "MIGRACION/EVIDENCIAS/F13_SR3_AUTONOMOUS_EXPORT_FIX_RESOURCE_RECOVERY_AND_FINAL_QA_01/DEV/UI_SR3_04_EDITOR/IntegratedWindow.cs",
+      "Observed": true
+    },
+    {
+      "Id": "PINNED_EXECUTION",
+      "Source": "MIGRACION/EVIDENCIAS/F13_SR3_AUTONOMOUS_EXPORT_FIX_RESOURCE_RECOVERY_AND_FINAL_QA_01/DEV/CORE_02/ReleaseSession.cs",
+      "Observed": true
+    },
+    {
+      "Id": "SANDBOX_STARTUP",
+      "Source": "MIGRACION/EVIDENCIAS/F13_SR3_AUTONOMOUS_EXPORT_FIX_RESOURCE_RECOVERY_AND_FINAL_QA_01/DEV/UI_SR3_04_EDITOR/IntegratedWindow.cs",
+      "Observed": true
+    },
+    {
+      "Id": "QA_EXPORT_DESTINATION",
+      "Source": "MIGRACION/EVIDENCIAS/F13_SR3_AUTONOMOUS_EXPORT_FIX_RESOURCE_RECOVERY_AND_FINAL_QA_01/DEV/UI_SR3_04_EDITOR/IntegratedPopulations.cs",
+      "Observed": true
+    },
+    {
+      "Id": "ABSOLUTE_BUILD_PATHS",
+      "Source": "MIGRACION/EVIDENCIAS/F13_SR3_AUTONOMOUS_EXPORT_FIX_RESOURCE_RECOVERY_AND_FINAL_QA_01/DEV/UI_SR3_04_EDITOR/Integrated.WinUI.csproj",
+      "Observed": true
+    },
+    {
+      "Id": "DISCIPLINE_PRESENTATION_GAP",
+      "Source": "dotnet/src/SistemaMarcaciones.Monthly.Export.Eligibility/DisciplinePlan.cs",
+      "Observed": true
+    },
+    {
+      "Id": "LEGACY_MEDICAL_ORANGE",
+      "Source": "src/marcaciones_cba/rules.py",
+      "Observed": true
+    },
+    {
+      "Id": "LEGACY_OPADMIN_TWO_MARKS",
+      "Source": "src/marcaciones_cba/rules.py",
+      "Observed": true
+    }
+  ],
+  "ApplicationStarted": false,
+  "BuildExecuted": false,
+  "ProductionDataInspected": false,
+  "ReviewedFilesChanged": false,
+  "FunctionalAcceptance": "NOT_EXECUTED",
+  "FinalDelivery": "PENDING"
+}
