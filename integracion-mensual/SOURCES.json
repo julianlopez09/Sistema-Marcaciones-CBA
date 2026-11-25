@@ -1,0 +1,645 @@
+{
+  "DataIncluded": false,
+  "InstitutionalAcceptance": false,
+  "AccountPoliciesIncluded": false,
+  "Version": "0.8.1.400",
+  "Dependencies": [
+    {
+      "SHA256": "0000F04E258F4548EEB05A6016D0DD39779F592AE222F298973F8624B36F21BE",
+      "Bytes": 40984,
+      "FileName": "Microsoft.Windows.AppLifecycle.Projection.dll"
+    },
+    {
+      "SHA256": "03450980E5564A4F6C1A090AE921DDDB096A71D8FD392A4924A1728D17D6D89E",
+      "Bytes": 51200,
+      "FileName": "SistemaMarcaciones.Monthly.Export.DirectoresGuardia.dll"
+    },
+    {
+      "SHA256": "097493EB00C6C1381BFAFE94D67992198A3266E596CDC2FE0D07ECC1F3B28893",
+      "Bytes": 24600,
+      "FileName": "Microsoft.Windows.AI.Projection.dll"
+    },
+    {
+      "SHA256": "0AD3BEC30676F21FF8153C67D84D68353FAFA12B0E24B613D039AEDC3805ADE6",
+      "Bytes": 252416,
+      "FileName": "SistemaMarcaciones.F13.Integrated.Native.dll"
+    },
+    {
+      "SHA256": "0EC371D93798852E36461C8ADDDBEADCE0F963A04752F0B64E54FE19C1C834A7",
+      "Bytes": 24877600,
+      "FileName": "Microsoft.Windows.SDK.NET.dll"
+    },
+    {
+      "SHA256": "0F957816DFE36777F1B943D5E2B1FF9C8B48EF14AFE293DA325AED3F17B7AC90",
+      "Bytes": 37408,
+      "FileName": "Microsoft.Windows.Storage.Projection.dll"
+    },
+    {
+      "SHA256": "1259C5E4110E71542313DF3EE5C59E18492E294BF9EF105B23219958DF6C6998",
+      "Bytes": 140800,
+      "FileName": "SistemaMarcaciones.Monthly.Host.Wiring.dll"
+    },
+    {
+      "SHA256": "1580AF1C371F94D1CB10D4E79F70EF405C71874F20EF81C6B554F43C79FD9683",
+      "Bytes": 25632,
+      "FileName": "Microsoft.Windows.ApplicationModel.Background.Projection.dll"
+    },
+    {
+      "SHA256": "15E21135B203EA1E41FCD1EBB51FC0440092F12901FEC13D569BDC75D649DD14",
+      "Bytes": 97280,
+      "FileName": "SistemaMarcaciones.Monthly.WorkflowPreview.dll"
+    },
+    {
+      "SHA256": "15F96E9EE2B28CB215E7E01F3416EEBE248036B563CB6E04ADBBBEF3AB8C2576",
+      "Bytes": 91168,
+      "FileName": "Microsoft.Windows.AI.Text.Projection.dll"
+    },
+    {
+      "SHA256": "1762CC26CEBEB744D4E20BE5A84CC7898F642B74A33AA978586A37CA83B4BD49",
+      "Bytes": 69152,
+      "FileName": "Microsoft.Windows.ApplicationModel.Resources.Projection.dll"
+    },
+    {
+      "SHA256": "1970AE5E398666304483203DAE64F8BC3327811114AE38BB3484ECBCE1386B41",
+      "Bytes": 165488,
+      "FileName": "WebView2Loader.dll"
+    },
+    {
+      "SHA256": "1CEB136813A97685BE7E8055F0EB579A632E37BB4A0CE1A83C6DF2C081B262D1",
+      "Bytes": 45568,
+      "FileName": "SistemaMarcaciones.Workspace.StorageV2.dll"
+    },
+    {
+      "SHA256": "1F61833BEF8BA6ACB3BCA711C164697783B16AD23E3583ACC8FFD720AEDB7773",
+      "Bytes": 94472,
+      "FileName": "Microsoft.Windows.AI.MachineLearning.Projection.dll"
+    },
+    {
+      "SHA256": "219A364DA0F09775E4D2130D2577DA9970957CC87C3E6A399F9D26DD0EC984D9",
+      "Bytes": 155136,
+      "FileName": "SistemaMarcaciones.Domain.dll"
+    },
+    {
+      "SHA256": "22C20E16455ED24C4F819E8E2F5B9CAA73B0117759007E0BB4B3269A3FA953A4",
+      "Bytes": 16968,
+      "FileName": "Microsoft.WindowsAppRuntime.Bootstrap.Net.dll"
+    },
+    {
+      "SHA256": "234FBD9CEB1DA360475EEA0C6D5DAB5BBA3D87F4D0DF16174311B02E4B443CA3",
+      "Bytes": 61984,
+      "FileName": "Microsoft.Windows.AppNotifications.Projection.dll"
+    },
+    {
+      "SHA256": "2779253EB3CF690D5D13E54992961CCB5C5A5A5BF5B096E9109426724817BD5B",
+      "Bytes": 92160,
+      "FileName": "SistemaMarcaciones.Monthly.Export.Verified.dll"
+    },
+    {
+      "SHA256": "2974A6A106D2B1B478F3F83D457442C05AAA870C0ABE8245628856618EF4E090",
+      "Bytes": 40448,
+      "FileName": "Native.FourRoutes.dll"
+    },
+    {
+      "SHA256": "2AFD348B03C9B2882EC8B37D5CD5EFACBA26F195A60F75E3CD095C5067231928",
+      "Bytes": 134688,
+      "FileName": "Microsoft.Windows.Management.Deployment.Projection.dll"
+    },
+    {
+      "SHA256": "2FD2807B60164B7DB9B9E861CB37404B72B3ECE7C10AB650BB23497C9503C5CC",
+      "Bytes": 83968,
+      "FileName": "SistemaMarcaciones.Monthly.ForwardAttendance.dll"
+    },
+    {
+      "SHA256": "3686126113492A5C5800878F80B3C142B82EB1482ED4A4F490FC21DE2502A898",
+      "Bytes": 57856,
+      "FileName": "SistemaMarcaciones.Pilot.Controlled.dll"
+    },
+    {
+      "SHA256": "36AE95BDC5C6C5632F3931C07C9B49A16619BEEA41CE803EC73766DF60518191",
+      "Bytes": 37960,
+      "FileName": "Microsoft.Windows.Media.Capture.Projection.dll"
+    },
+    {
+      "SHA256": "37296F9D67E6C0A85FB2676B3C641ED3128E9E709E72D5EC0A8556BF81D68AE0",
+      "Bytes": 505856,
+      "FileName": "Cba.F13.Integrated.Native.RC08_1.AR1.AllPopulations.dll"
+    },
+    {
+      "SHA256": "377324A8D89A912CDA8ECFCC9D68DCBD5F85A79C917D4E162727BBE3C434DC11",
+      "Bytes": 30240,
+      "FileName": "Microsoft.Windows.Foundation.Projection.dll"
+    },
+    {
+      "SHA256": "3BCF74D7EDD33F5E94FC99ABF909634FF502EE1CED1B333EA8D27939DD69E452",
+      "Bytes": 208384,
+      "FileName": "SistemaMarcaciones.Monthly.Projects.dll"
+    },
+    {
+      "SHA256": "3F7AF4141CE0C2AF545B35671F02F0E9A8296184A6FE2BE437A6AC88CA935CCF",
+      "Bytes": 24608,
+      "FileName": "Microsoft.Windows.BadgeNotifications.Projection.dll"
+    },
+    {
+      "SHA256": "41944932171FC8269BB1C0AFDFE1456793A9F6F0CAEA9F149E88B16BFC25B031",
+      "Bytes": 785488,
+      "FileName": "Microsoft.Web.WebView2.Core.dll"
+    },
+    {
+      "SHA256": "4E65FEC2F4B0F96A32EEE682B11EF44BAD48B368864CA4AEC8604D36EB9194E9",
+      "Bytes": 477184,
+      "FileName": "SistemaMarcaciones.F13.Integrated.Native.dll"
+    },
+    {
+      "SHA256": "5090B4E87871D6D5A7AED6A88EEB85B4CB92991F52081D324C2037D503CEDBB3",
+      "Bytes": 242952,
+      "FileName": "Microsoft.ML.OnnxRuntime.dll"
+    },
+    {
+      "SHA256": "53F47ECA157FBF14C7DCAE9826EA278441052A1801965F867B7B45C94D9DD50E",
+      "Bytes": 69632,
+      "FileName": "SistemaMarcaciones.Monthly.Host.NativeIntegration.dll"
+    },
+    {
+      "SHA256": "54DC4524A5CBDFE6A049BDD4CA085A69AAD03B8BC5CC927B475233CFC3923F03",
+      "Bytes": 8192,
+      "FileName": "SistemaMarcaciones.Application.dll"
+    },
+    {
+      "SHA256": "5B4CE9542132182EC508AC5660296C2640670B0D49DEB2640C9DB10D861741D3",
+      "Bytes": 87624,
+      "FileName": "Microsoft.Windows.ApplicationModel.Background.UniversalBGTask.dll"
+    },
+    {
+      "SHA256": "5CFE45E4EB99F4F18F6BAE1F67401F82164EA06AEC16C778D15ABFC78422583E",
+      "Bytes": 166400,
+      "FileName": "SistemaMarcaciones.Monthly.Pipeline.dll"
+    },
+    {
+      "SHA256": "61586ECC4C7447A7AD42BB42BF1F080729D4644EED2DCA1C6C84C80F46E98130",
+      "Bytes": 93696,
+      "FileName": "SistemaMarcaciones.Workflow.Controlled.dll"
+    },
+    {
+      "SHA256": "64391F416B479A63BBAA6E5D5DBD7A99B09468B137B796BCDE9FDF76405E42AD",
+      "Bytes": 458752,
+      "FileName": "SistemaMarcaciones.Monthly.Excel.Editor.dll"
+    },
+    {
+      "SHA256": "6DA912AA4D30F911221775C56556C33D24EDB57A74AFFAC4332E94E878926A97",
+      "Bytes": 66048,
+      "FileName": "SistemaMarcaciones.Monthly.Export.Auxiliary.Renderers.dll"
+    },
+    {
+      "SHA256": "70E49ECC1A7BB6CB79DC6E7F462B744FA0D46FDE7B0F74BD049FD47D5FE0D7E8",
+      "Bytes": 130560,
+      "FileName": "SistemaMarcaciones.Monthly.Native.Outcomes.dll"
+    },
+    {
+      "SHA256": "73DD0376CF60DEBE353BAA5B2BD1786666E0154F31EE779B2F4523604C34332A",
+      "Bytes": 12800,
+      "FileName": "SistemaMarcaciones.Contracts.dll"
+    },
+    {
+      "SHA256": "75A057485A04AF39D25AD34B25D2E00568E22543320DD666C55BC047E57FEDB1",
+      "Bytes": 42496,
+      "FileName": "SistemaMarcaciones.Application.PersistenceShadow.dll"
+    },
+    {
+      "SHA256": "7BA5742467FCC95886A91353FB91E1F80EDF1A5A535CDD5FDAFEF04017342BFA",
+      "Bytes": 1609760,
+      "FileName": "Microsoft.InteractiveExperiences.Projection.dll"
+    },
+    {
+      "SHA256": "7E98AA7850DA8DE45DCD65BA1144895A2E97C2F5AA5B5B6BBC5E173139B3BFC1",
+      "Bytes": 25632,
+      "FileName": "Microsoft.Windows.AI.Foundation.Projection.dll"
+    },
+    {
+      "SHA256": "80EE412D26AAAC6F5A0A2EB6DFB3DBF9C0211921C5C9008450A7A70D70DB1C49",
+      "Bytes": 30208,
+      "FileName": "SistemaMarcaciones.Persistence.Contracts.dll"
+    },
+    {
+      "SHA256": "87B81BAD996508F37EEE11673C918311C0E7872E002389CDF2D75582BB3E2C88",
+      "Bytes": 53248,
+      "FileName": "SistemaMarcaciones.Centro.Presentation.dll"
+    },
+    {
+      "SHA256": "881634FDA6ACCC214E80A80CD1B8FB3C31D946C08F0D7CA3B9B4380FE21160C1",
+      "Bytes": 44064,
+      "FileName": "Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll"
+    },
+    {
+      "SHA256": "8E4261FC21C9CC6CEAD59447EA8D13B73456BFA1BB60DE649F634498A8AC017E",
+      "Bytes": 49152,
+      "FileName": "SistemaMarcaciones.Monthly.EffectiveDutyEvidence.dll"
+    },
+    {
+      "SHA256": "8ED7FC6C0766A47EAE99D33E5B6AB019FC9B2EDA26FACA5EE02942AD5D00458E",
+      "Bytes": 437760,
+      "FileName": "SistemaMarcaciones.Infrastructure.dll"
+    },
+    {
+      "SHA256": "90610ED89F0C14937A863D928AEA7FA6AEA952FB208F3950BC6976D07B42DA89",
+      "Bytes": 666192,
+      "FileName": "Microsoft.Web.WebView2.Core.Projection.dll"
+    },
+    {
+      "SHA256": "91475A1E5C328B9A25FC82C34D848D4258863561BFFBFB347DBF50AE339F7354",
+      "Bytes": 27168,
+      "FileName": "Microsoft.Graphics.Imaging.Projection.dll"
+    },
+    {
+      "SHA256": "9C768D23F6FA82220986AA864BCD7B61BF5FF358824119E9645DDF7132DF9E09",
+      "Bytes": 49664,
+      "FileName": "SistemaMarcaciones.Personnel.Authority.dll"
+    },
+    {
+      "SHA256": "9D96DC759FDB54CBC3C26EE65CFD78FF32E3745F418119CC0811E63D3F29ECB9",
+      "Bytes": 410936,
+      "FileName": "System.Numerics.Tensors.dll"
+    },
+    {
+      "SHA256": "9FAD37AFA3F8F89289ACF2D6104E4814EF04CE33685F66F0850888A3C2804007",
+      "Bytes": 36896,
+      "FileName": "Microsoft.Windows.AI.ContentSafety.Projection.dll"
+    },
+    {
+      "SHA256": "A93E16F2679C9750DBEB2A6D8FFAD4CD7EA56FB5BCB9B56A0D6788697D14A528",
+      "Bytes": 76800,
+      "FileName": "SistemaMarcaciones.Monthly.Export.Auxiliary.dll"
+    },
+    {
+      "SHA256": "A9D9DA786FE01E8D9CA5F0AA0D6623D575959DE828A4190DB3C1B58AA346DDE5",
+      "Bytes": 146216,
+      "FileName": "CommunityToolkit.Mvvm.dll"
+    },
+    {
+      "SHA256": "B174D0DEB182658BC05D7FB31182CAB759159F9D747AB27978DDD35B5024D7D5",
+      "Bytes": 40960,
+      "FileName": "SistemaMarcaciones.Monthly.Observational.Presentation.dll"
+    },
+    {
+      "SHA256": "B18729658FCAC7A8B0D74AF0D2B8AA72DA9FBDEF3BA1814337FE12405CDD4A4F",
+      "Bytes": 118272,
+      "FileName": "SistemaMarcaciones.Monthly.Controlled.dll"
+    },
+    {
+      "SHA256": "B2141B02FFCA859E5169228FC3F808BAE3B62A61BA3D4B0B0C63E61E6C9C305F",
+      "Bytes": 68640,
+      "FileName": "Microsoft.Windows.AppNotifications.Builder.Projection.dll"
+    },
+    {
+      "SHA256": "B55407B6981E2189E7AB4E4DAF00D0CDC23947A4A22977CCA3469120EC3FB4FC",
+      "Bytes": 93696,
+      "FileName": "SistemaMarcaciones.Monthly.Native.Documentary.dll"
+    },
+    {
+      "SHA256": "B60A0BA7A1BC54BB9342779634DFF653F8B44916B7887808ECE2674705EC09BE",
+      "Bytes": 45088,
+      "FileName": "Microsoft.Windows.PushNotifications.Projection.dll"
+    },
+    {
+      "SHA256": "B7CBD90C206D791700AC3620A75D6C4370262F5E9D108E4D0B17578BBDF617D1",
+      "Bytes": 37376,
+      "FileName": "SistemaMarcaciones.Monthly.Observational.Refinement.dll"
+    },
+    {
+      "SHA256": "B7CC844DE38D3D363F98B5652B57355AABA8804704B9258EF35DFD5D93488966",
+      "Bytes": 167496,
+      "FileName": "Microsoft.Windows.Widgets.Projection.dll"
+    },
+    {
+      "SHA256": "B88858EB164E8A9E60E0A0565EA135C3631900F7C1748C66E2EC0B5C25256E45",
+      "Bytes": 399904,
+      "FileName": "Microsoft.WindowsAppRuntime.Bootstrap.dll"
+    },
+    {
+      "SHA256": "B9A1774A0E0EA66A46A5857E5739C7264781D4CB53621600E7F3DCEBE8869111",
+      "Bytes": 51712,
+      "FileName": "SistemaMarcaciones.Monthly.Export.dll"
+    },
+    {
+      "SHA256": "BCF3A14E8712A90837FC5C0D8C8A24696AF2BD7F74E9767597EC81EDEDFB23DB",
+      "Bytes": 528944,
+      "FileName": "WinRT.Runtime.dll"
+    },
+    {
+      "SHA256": "C10E61C626B4BAA79068AE66C771CE5F9AB9C6AC235A9E6014617DFA817C33A3",
+      "Bytes": 84480,
+      "FileName": "SistemaMarcaciones.Monthly.Export.DirectoresGuardia.Dynamic.dll"
+    },
+    {
+      "SHA256": "C5512556E995FAE82A9DE1FC0AA6CFE08175E1869BD5050F5424DB9DD1B2C9C5",
+      "Bytes": 115712,
+      "FileName": "SistemaMarcaciones.F13.Director.Completion.dll"
+    },
+    {
+      "SHA256": "CD01D48468A34648B6E86A0BCDEBD7CF8279DE9CA3F56B126978C8D02F98792E",
+      "Bytes": 15360,
+      "FileName": "SistemaMarcaciones.Monthly.StorageV2.Integration.dll"
+    },
+    {
+      "SHA256": "CEA39F1EC30096231200BF1ADB9D8C18452B8DA7136C9C256A07F948EB909831",
+      "Bytes": 80896,
+      "FileName": "SistemaMarcaciones.Monthly.Observational.dll"
+    },
+    {
+      "SHA256": "CF2827B6583A4734ACF9993F0B80FDAB486DB9D3A332F1FCE4FA846FA9D793E0",
+      "Bytes": 28704,
+      "FileName": "Microsoft.Windows.System.Projection.dll"
+    },
+    {
+      "SHA256": "CFD06D323AB71EA796CD031D1A0BCD8B2AF378C692CE586CE62DBC1391C06AC8",
+      "Bytes": 135168,
+      "FileName": "SistemaMarcaciones.F13.Populations.dll"
+    },
+    {
+      "SHA256": "DCFEF2C60909C9140DBBC6203181C6882CA7A15CD0D4FB5CC71DDE2979A253A8",
+      "Bytes": 43520,
+      "FileName": "SistemaMarcaciones.Monthly.Management.dll"
+    },
+    {
+      "SHA256": "DD362FE8D36C81E96AD5CCE093E4C9C00C289A1C9524865A730F320D366098E6",
+      "Bytes": 58368,
+      "FileName": "SistemaMarcaciones.Presentation.Contracts.dll"
+    },
+    {
+      "SHA256": "DD7F58DC4535E082E5BAA8C92438963C53FA02F86895603809B6811C21EC312E",
+      "Bytes": 35360,
+      "FileName": "Microsoft.Windows.System.Power.Projection.dll"
+    },
+    {
+      "SHA256": "E1488365175D165F5DAA22CDC273E3FB3CE772789DC63867DDCBB21ABAD04C0F",
+      "Bytes": 57928,
+      "FileName": "Microsoft.Windows.Storage.Pickers.Projection.dll"
+    },
+    {
+      "SHA256": "E45D1BF648FA1D5F5722C7F70728F40D7653520BCE781FB81E1B6B1EA544B7C7",
+      "Bytes": 46664,
+      "FileName": "Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll"
+    },
+    {
+      "SHA256": "E5E411E072204B186EE1FF83D9007E7EF50BE2815BAC35C6CD732623D6178F8E",
+      "Bytes": 80928,
+      "FileName": "Microsoft.Security.Authentication.OAuth.Projection.dll"
+    },
+    {
+      "SHA256": "E9D6616087EA8D6645C92214842A4E0D43933676B54D32F0926821C2B4728B6C",
+      "Bytes": 7317536,
+      "FileName": "Microsoft.WinUI.dll"
+    },
+    {
+      "SHA256": "EB21E9A3FDDFB9E44E65DDEB625F3D5B5CA88F3CD12E2294D7556B8579C7BB06",
+      "Bytes": 115712,
+      "FileName": "SistemaMarcaciones.F13.Guardia.Native.Technical.dll"
+    },
+    {
+      "SHA256": "F1EDC23849E843E974FA0EB1856443844D38BA45CAFC82006435B13DD1F7CDC9",
+      "Bytes": 57856,
+      "FileName": "SistemaMarcaciones.Monthly.ForwardAdmission.dll"
+    },
+    {
+      "SHA256": "F4A47249273FCCEB59AA5FBFAA93DCCB6CB5AF50F6B25498983FC9187D6E3EA0",
+      "Bytes": 21536,
+      "FileName": "Microsoft.Windows.Security.AccessControl.Projection.dll"
+    },
+    {
+      "SHA256": "F68C28CD99CD17DED746C672C7332FB0D8A82AB510F91A59E0595420DFC07A90",
+      "Bytes": 84000,
+      "FileName": "Microsoft.Windows.AI.Imaging.Projection.dll"
+    },
+    {
+      "SHA256": "FEC262B94452AB02691FCDD38899DC36C44AD96ED9F2423DB2CFD0B8E22498C8",
+      "Bytes": 75264,
+      "FileName": "SistemaMarcaciones.Monthly.SourceIngestion.dll"
+    }
+  ],
+  "Projects": "Private absolute prefixes parameterized; public-only clean rebuild not claimed",
+  "Files": [
+    {
+      "Path": "src/Core/CompletionExports.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 19665,
+      "SHA256": "B837894A7B90FDEA9C2F7C2E7C8C9C60AFECD383547C46D8D0D9BF56BB651589"
+    },
+    {
+      "Path": "src/Core/ExcelPackageCompatibility.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 6160,
+      "SHA256": "F6D3BDD7CE1A144BEF2BDC3115FA87592F11D592F6C60005C9A9AE15EB443A8C"
+    },
+    {
+      "Path": "src/Core/NativeActionAdmission.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 5548,
+      "SHA256": "B8BED8B66044708674CD38429914985647654BB7256C22871F85CE34D88688C9"
+    },
+    {
+      "Path": "src/Core/NativeAttendance.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 15602,
+      "SHA256": "CFF4E618ECCFFD2A822922400158429F8BEB7F8DA150FB5DE7E166B6DAD2F80D"
+    },
+    {
+      "Path": "src/Core/OperationalArtifacts.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 22154,
+      "SHA256": "DBC3EA8FDD9FF8E19CC377714081BC91986BAA558E9152E9174AD90CFA74F7D7"
+    },
+    {
+      "Path": "src/Core/OperationalAuthority.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 3110,
+      "SHA256": "F4B3414FC23CA921317D44DB4411BEF6AD072DBB0B97FFBA7B7CF762CA849AE1"
+    },
+    {
+      "Path": "src/Core/OperationalCoverage.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 3727,
+      "SHA256": "817142FB79F624BF4E16A1E33C3BF09E0603E033DAD941A5EDCE842438CCF8D9"
+    },
+    {
+      "Path": "src/Core/OperationalFacts.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 7937,
+      "SHA256": "95B583177A296DD378828DD8A81ED2874C63C0F0027DE5A5DA5E31CAA3370168"
+    },
+    {
+      "Path": "src/Core/OperationalImportTemplates.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 6371,
+      "SHA256": "9F4EB6F37176268F83DDE94CC40C9FB7075BFCCD3ABCF16CAD204998B1CB98D2"
+    },
+    {
+      "Path": "src/Core/OperationalModels.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 6929,
+      "SHA256": "EB9EE415B8D0B8C23FB6381E0DBEC5A56F3217642539F274E5CA4F5B44E1C9AC"
+    },
+    {
+      "Path": "src/Core/OperationalNative.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 19322,
+      "SHA256": "A3E1F905523D5AA936994A6E3B120AFEBAE6445372006DC0F8F7A3ABABA0927F"
+    },
+    {
+      "Path": "src/Core/OperationalPhysical.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 12803,
+      "SHA256": "5D10F65BCCFB1F62FCD641D2F803340A5A8C991A92E470F4F94948FD3BF6D630"
+    },
+    {
+      "Path": "src/Core/OperationalPresentation.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 1807,
+      "SHA256": "60C615D93B2301FBD3472591BFBB6CE1DEE61C40DD2A477104F3A1448ADE2D8A"
+    },
+    {
+      "Path": "src/Core/OperationalSession.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 17394,
+      "SHA256": "E241EB4596522A5E710418155A249B4DD2604F2FC13488C9BAD13F516F4C234A"
+    },
+    {
+      "Path": "src/Core/OperationLifetime.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 7823,
+      "SHA256": "FA1332E94B07E51547E77756C28F5F279DFBCB5762E8261C813F545BC5B3E217"
+    },
+    {
+      "Path": "src/Core/OwnedLaunchBoundary.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 20780,
+      "SHA256": "E158E1CE44F29492F10510CE5A3536C8436B487C84E991B8B01C50432465D9D0"
+    },
+    {
+      "Path": "src/Core/ReleaseSession.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 10080,
+      "SHA256": "196CBB94BE9E429E5F7C99FA7129B05628C3DCB0CD1EC81B8B27C15C9A85896F"
+    },
+    {
+      "Path": "src/Core/WorkbookViewCompatibility.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 1690,
+      "SHA256": "F7015BFFF1BED4EA1120F8A44BA78066B934896EC90743ABC69F87FD7F8BFB7D"
+    },
+    {
+      "Path": "src/Core/WorkingEconomicRows.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 14088,
+      "SHA256": "D6ED4400C817D26BD6FE9CFAF2FCF22B9234D880DC4BA16311767E34DE20008C"
+    },
+    {
+      "Path": "src/Core/WorkingRowsExport.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 11977,
+      "SHA256": "C0366936E77113E151983504B4ABFD75BBC9E2FB0A6BDB442DDD8597547E36EF"
+    },
+    {
+      "Path": "src/WinUI/B09WinUIAliases.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 127,
+      "SHA256": "9EB105A985E049416C1B43FDE9339A05A1725DB056905B4B0303639BB87B3B3F"
+    },
+    {
+      "Path": "src/WinUI/DetachedExcelWindow.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 39919,
+      "SHA256": "D62207BD46F7CCAC1E21E567AF1B6F1058208C824DE3D6CE755ED6D6F867AB5D"
+    },
+    {
+      "Path": "src/WinUI/DetachedForwardAttendanceDetail.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 3448,
+      "SHA256": "5CAEDC329AE7EA987BE6E08A670E566EF78BE11FDF23A924691EA0524091C043"
+    },
+    {
+      "Path": "src/WinUI/DetachedWorkingEconomicRows.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 4946,
+      "SHA256": "3708873A619C9C94DB3CB04DED975131988AD2C3FBAFBAF75BF3F22DBE400045"
+    },
+    {
+      "Path": "src/WinUI/IntegratedPopulations.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 14141,
+      "SHA256": "63D247F57732BB88AD883BE61C20AC3A43AEC32AAC78CE52D5FD73BC446621BA"
+    },
+    {
+      "Path": "src/WinUI/IntegratedReviewLayout.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 2863,
+      "SHA256": "62383CECE5757177BCEF588D87C75A825699DC7DACDD74B6AF506B9EDAED705F"
+    },
+    {
+      "Path": "src/WinUI/IntegratedWindow.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 21257,
+      "SHA256": "2AE1262A32E4269B00EE1785436802F26FE5DD37C956CB7270302BCBF0EA9DD1"
+    },
+    {
+      "Path": "src/WinUI/MonthlyApplication.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 37467,
+      "SHA256": "B7A14B1C7252DDAE986131A63E6398392B132C5AD86E67D528D349F52EF947F3"
+    },
+    {
+      "Path": "src/WinUI/MonthlyPresentation.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 5743,
+      "SHA256": "2F7C642B48DF3EF585C273C5C7931D86CEF6D0BFFED2A781B22995B7FE9897FA"
+    },
+    {
+      "Path": "src/WinUI/PhysicalSheetCanvas.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 23841,
+      "SHA256": "F4C51506D392B7DA2D655728B39F63FEF407F123F96A6F85447813935B69BDAD"
+    },
+    {
+      "Path": "src/WinUI/ProductEditorShutdown.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 5008,
+      "SHA256": "61799BCAC4618421F945A4AA4C60C82F697DD505C9074C94717573008B6D59AB"
+    },
+    {
+      "Path": "src/WinUI/ProductLog.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 487,
+      "SHA256": "C096CF8985697C5EDDF2BF31B4870F332F4DEDB22F3B789269713956271905A7"
+    },
+    {
+      "Path": "src/WinUI/TypedLatePresentation.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 693,
+      "SHA256": "84ADB5B5FA0939B25C15FDC78F29D4AE3E39CBDFE195771ACAFA23A1D4470726"
+    },
+    {
+      "Path": "src/WinUI/WindowShutdown.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 9894,
+      "SHA256": "0FF73AAE402D88E79DE7D5B29E31E4E33885095A5378BC26758B6EE3CBF1A4B1"
+    },
+    {
+      "Path": "src/WinUI/AcceptedVisuals/InstitutionalTable.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 8943,
+      "SHA256": "BF7FA21FED767E48A19F8E46C471BD9CAA532B1B4999B8917767DFA6F4E2B9F2"
+    },
+    {
+      "Path": "src/WinUI/AcceptedVisuals/InstitutionalVisualTokens.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 10097,
+      "SHA256": "A412853B6B7DB986412F31F7FD3A0F8FA524D7AF89E855934270CBEDDFFCD28B"
+    },
+    {
+      "Path": "src/WinUI/AcceptedVisuals/PilotWrapPanel.cs",
+      "MatchesCompiledSource": true,
+      "Bytes": 1365,
+      "SHA256": "A02AC2821A82A5AEECB510AABF85F007B7DC1A3D55BCB33F0030F210020193B0"
+    }
+  ],
+  "F13_OPEN": true,
+  "BinariesIncluded": false
+}

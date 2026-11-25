@@ -1,0 +1,89 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+    <TargetPlatformMinVersion>10.0.19041.0</TargetPlatformMinVersion>
+    <AssemblyName>Cba.Marcaciones.Mensual</AssemblyName>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Deterministic>true</Deterministic>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    <StartupObject>SistemaMarcaciones.Desktop.Pilot.WinUI.MonthlyProgram</StartupObject>
+    <Version>0.8.1.400</Version>
+    <AssemblyVersion>0.8.1.400</AssemblyVersion>
+    <FileVersion>0.8.1.400</FileVersion>
+    <InformationalVersion>CBA-MENSUAL-0.8.1.400-LOCAL</InformationalVersion>
+    <IncludeSourceRevisionInInformationalVersion>false</IncludeSourceRevisionInInformationalVersion>
+    <OutputType>WinExe</OutputType>
+    <UseWinUI>true</UseWinUI>
+    <WindowsPackageType>None</WindowsPackageType>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <PlatformTarget>x64</PlatformTarget>
+    <EnableMsixTooling>false</EnableMsixTooling>
+    <DefineConstants>$(DefineConstants);DISABLE_XAML_GENERATED_MAIN</DefineConstants>
+    <AppHostDotNetSearch>AppRelative</AppHostDotNetSearch>
+    <AppHostRelativeDotNet>runtime/dotnet</AppHostRelativeDotNet>
+    <ApplicationManifest>$(CbaPrivateSourceRoot)/dotnet/src/SistemaMarcaciones.Desktop.WinUI/app.manifest</ApplicationManifest>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="$(CbaFrozenB07Root)/*.dll" Exclude="$(CbaFrozenB07Root)/SistemaMarcaciones.Application*.dll;$(CbaFrozenB07Root)/Cba.*.dll;$(CbaFrozenB07Root)/SistemaMarcaciones.F13.Integrated.Native.dll" />
+    <Reference Include="$(CbaFrozenB07Root)/SistemaMarcaciones.Application*.dll">
+      <Aliases>nativekernel</Aliases>
+    </Reference>
+    <Reference Include="SistemaMarcaciones.Monthly.Native.Documentary">
+      <HintPath>$(CbaNativeDocumentaryAssembly)</HintPath>
+    </Reference>
+    <Reference Include="SistemaMarcaciones.Monthly.Host.NativeIntegration">
+      <HintPath>$(CbaB09Assembly)</HintPath>
+    </Reference>
+    <Reference Include="SistemaMarcaciones.Monthly.ForwardAttendance">
+      <HintPath>$(CbaPrivateSourceRoot)/dotnet/src/SistemaMarcaciones.Monthly.ForwardAttendance/bin/Release/net10.0/SistemaMarcaciones.Monthly.ForwardAttendance.dll</HintPath>
+    </Reference>
+    <Reference Include="SistemaMarcaciones.Monthly.Observational.Presentation">
+      <HintPath>$(CbaPrivateSourceRoot)/dotnet/src/SistemaMarcaciones.Monthly.Observational.Presentation/bin/Release/net10.0/SistemaMarcaciones.Monthly.Observational.Presentation.dll</HintPath>
+    </Reference>
+    <Reference Include="SistemaMarcaciones.Monthly.Observational.Refinement">
+      <HintPath>$(CbaPrivateSourceRoot)/dotnet/src/SistemaMarcaciones.Monthly.Observational.Refinement/bin/Release/net10.0/SistemaMarcaciones.Monthly.Observational.Refinement.dll</HintPath>
+    </Reference>
+    <Reference Include="SistemaMarcaciones.F13.Integrated.Native">
+      <HintPath>$(AR1CoreBin)/SistemaMarcaciones.F13.Integrated.Native.dll</HintPath>
+    </Reference>
+    <Reference Include="SistemaMarcaciones.F13.Populations">
+      <HintPath>$(CbaPopulationBin)/SistemaMarcaciones.F13.Populations.dll</HintPath>
+    </Reference>
+    <Reference Include="SistemaMarcaciones.F13.Director.Completion">
+      <HintPath>$(CbaDirectorBin)/SistemaMarcaciones.F13.Director.Completion.dll</HintPath>
+    </Reference>
+    <Reference Include="SistemaMarcaciones.F13.Guardia.Native.Technical">
+      <HintPath>$(CbaGuardiaBin)/SistemaMarcaciones.F13.Guardia.Native.Technical.dll</HintPath>
+    </Reference>
+    <Reference Include="SistemaMarcaciones.Monthly.Export.DirectoresGuardia.Dynamic">
+      <HintPath>$(CbaDynamicBin)/SistemaMarcaciones.Monthly.Export.DirectoresGuardia.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="SistemaMarcaciones.Monthly.Export.DirectoresGuardia">
+      <HintPath>$(CbaDynamicBin)/SistemaMarcaciones.Monthly.Export.DirectoresGuardia.dll</HintPath>
+    </Reference>
+    <Reference Include="SistemaMarcaciones.Monthly.EffectiveDutyEvidence">
+      <HintPath>$(CbaDynamicBin)/SistemaMarcaciones.Monthly.EffectiveDutyEvidence.dll</HintPath>
+    </Reference>
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.8.260317003" />
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+    <Content Include="$(CbaPrivateSourceRoot)/resources/icons/app_icon_512.png" Link="Assets/cba_logo.png" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="MonthlyApplication.cs" />
+    <Compile Include="MonthlyPresentation.cs" />
+    <Compile Include="DetachedExcelWindow.cs" />
+    <Compile Include="DetachedForwardAttendanceDetail.cs" />
+    <Compile Include="DetachedWorkingEconomicRows.cs" />
+    <Compile Include="PhysicalSheetCanvas.cs" />
+    <Compile Include="TypedLatePresentation.cs" />
+    <Compile Include="B09WinUIAliases.cs" />
+    <Compile Include="ProductEditorShutdown.cs" />
+    <Compile Include="ProductLog.cs" />
+    <Compile Include="$(CbaPrivateSourceRoot)\dotnet\src\SistemaMarcaciones.Desktop.Pilot.WinUI\InstitutionalVisualTokens.cs" Link="AcceptedVisuals\InstitutionalVisualTokens.cs" />
+    <Compile Include="$(CbaPrivateSourceRoot)\dotnet\src\SistemaMarcaciones.Desktop.Pilot.WinUI\PilotWrapPanel.cs" Link="AcceptedVisuals\PilotWrapPanel.cs" />
+    <Compile Include="$(CbaPrivateSourceRoot)\dotnet\src\SistemaMarcaciones.Desktop.Monthly.Observational.WinUI\InstitutionalTable.cs" Link="AcceptedVisuals\InstitutionalTable.cs" />
+  </ItemGroup>
+</Project>
